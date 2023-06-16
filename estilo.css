@@ -1,0 +1,17 @@
+body {font-family:Verdana, Geneva, Tahoma, sans-serif
+;background-color:mediumspringgreen;}
+
+h1{text-align:center;}
+
+section{width:400px;}
+
+/*FORMATANDO BLOCO 1*/
+.bloco1 p{color:maroon/* formatando todas as tags dentro da classe "bloco1"*/}
+.bloco1 > p{text-decoration:line-through; text-align:end}/* esse seletor > ira selecionar todas as filhas diretas da tag mãe */
+
+.bloco1{
+    border:2px red solid;
+}
+
+/*FORMATANDO BLOCO 2*/
+.bloco2 {border: 2px solid purple;}
