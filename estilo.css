@@ -15,3 +15,4 @@ section{width:400px;}
 
 /*FORMATANDO BLOCO 2*/
 .bloco2 {border: 2px solid purple;}
+.bloco2 + p {text-transform :uppercase;color:olive;}/* O seletor + é o seletor adjacente, que ira formatar o elementoexatamente após o seletor que usamos como referéncia, nesse caso é o bloco2.*/
