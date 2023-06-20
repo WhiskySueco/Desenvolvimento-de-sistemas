@@ -1,0 +1,12 @@
+body{background-color:lightblue;font-family:Verdana, Geneva, Tahoma, sans-serif;}
+h1{text-align:center;color:darkcyan;}
+
+.ingredientes, .preparo{background-color: aquamarine;height:400px;}
+
+.ingredientes>h2 , .preparo >h2{background-color :cornflowerblue;
+color :blue;text-align:center;padding:10 px;}
+
+.ingredientes ul li, .preparo ol li{font-size: 18px; line-height: 0.8 cm;}
+
+/* ::selection é uma pseudoclasse que irá alterar a cor de seleção do texto no site*/
+::selection{background-color:cyan}
