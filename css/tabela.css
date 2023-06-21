@@ -3,7 +3,24 @@ h1{text-align:center;color:darkred}
 
 hr{border:2px solid gold;}
 
-table,tr,th,td{border:2px solid gold;border-collapse:collapse;
-padding:8px;}
+/* Formatação 1*/
+/* table,tr,th,td{border:2px solid gold;border-collapse:collapse;
+padding:8px;} */
 
-table{margin:10px auto;}
+table{margin:10px auto;width:50%; border-collapse :collapse;} /* Estamos centralizando a tabela
+utilizando margin auto para as laterais*/
+
+/* Formatação 2*/
+/* th, td{border-bottom:1px solid gold;padding:10px;text-align:center;} */
+
+/* Formatação 3*/
+th{background-color: dodgerblue;color:white;}
+th, td{padding:10px;text-align:center;}
+tbody > tr:nth-child(even){background-color:cyan;}/* nth child()
+irá formatar um filho especifico que será informado nos parenteses
+,por exemplo, se quisermos formatar o 2º filho, colocamos nth-child(2) e assim por diante
+. "even" ´r um parametro quando queremos aplicar formatação em todos os filhos que são pares,
+já o "odd" é quando queremos formatar valores impares*/
+
+tbody >tr:hover{text-decoration:underline;
+cursor:pointer}
